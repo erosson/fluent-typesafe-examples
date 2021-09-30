@@ -5,10 +5,10 @@ import * as __L from "@fluent/react";
 
 // https://github.com/projectfluent/fluent.js/blob/master/fluent-react/src/localized.ts
 // TODO: typesafe `attrs` too
-type __props = Omit<__L.LocalizedProps, "id" | "vars">;
+type __props = Omit<__L.LocalizedProps, "id" | "vars" | "attrs">;
 
 export function HelloWorld(
-  props: __props & { vars: { title: string } }
+  props: __props & { vars: { title: string } } & { attrs: { title: boolean } }
 ): JSX.Element {
   return <__L.Localized id="hello-world" {...props} />;
 }
