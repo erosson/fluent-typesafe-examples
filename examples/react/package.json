@@ -14,6 +14,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "fluent-typesafe": "erosson/fluent-typesafe#master",
     "intl-pluralrules": "^1.3.1",
     "intl-polyfill": "^0.0.3",
     "react": "^17.0.2",
