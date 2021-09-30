@@ -3523,7 +3523,7 @@ firstline@^1.2.0:
 
 fluent-typesafe@erosson/fluent-typesafe#master:
   version "0.0.1"
-  resolved "https://codeload.github.com/erosson/fluent-typesafe/tar.gz/d4a1b7689e520eb64ccd1bcd1a65266b9c323cbc"
+  resolved "https://codeload.github.com/erosson/fluent-typesafe/tar.gz/9a130ef2efa90cf5e2425be8fd679116334c139f"
   dependencies:
     "@fluent/syntax" "^0.18.0"
     glob "^7.2.0"
