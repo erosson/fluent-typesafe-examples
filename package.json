@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "bash ./build.sh",
+    "upgrade-all": "bash ./scripts/upgrade-all.sh",
+    "build": "bash ./scripts/build.sh",
     "serve": "bash -c \"yarn build && yarn _serve\"",
     "_serve": "serve build"
   }
