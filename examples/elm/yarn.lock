@@ -3523,9 +3523,10 @@ firstline@^1.2.0:
 
 fluent-typesafe@erosson/fluent-typesafe#master:
   version "0.0.1"
-  resolved "https://codeload.github.com/erosson/fluent-typesafe/tar.gz/6cb976471faf1a74bc0d315c69e1de54a9fad9f0"
+  resolved "https://codeload.github.com/erosson/fluent-typesafe/tar.gz/d4a1b7689e520eb64ccd1bcd1a65266b9c323cbc"
   dependencies:
     "@fluent/syntax" "^0.18.0"
+    glob "^7.2.0"
     lodash "^4.17.21"
     minimist "^1.2.5"
     prettier "^2.4.1"
@@ -3742,7 +3743,7 @@ glob-to-regexp@^0.3.0:
   resolved "https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.3.0.tgz#8c5a1494d2066c570cc3bfe4496175acc4d502ab"
   integrity sha1-jFoUlNIGbFcMw7/kSWF1rMTVAqs=
 
-glob@^7.0.0, glob@^7.0.3, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
+glob@^7.0.0, glob@^7.0.3, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6, glob@^7.2.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.0.tgz#d15535af7732e02e948f4c41628bd910293f6023"
   integrity sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==

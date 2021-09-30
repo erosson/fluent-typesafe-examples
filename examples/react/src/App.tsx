@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import '@fluent/react'
-import * as L from './gen/localization'
+import { main as L } from './gen/localization'
 import initL10n from './initLocalization'
 import { LocalizationProvider, ReactLocalization } from '@fluent/react'
 

@@ -1,9 +1,9 @@
 {
     "scripts": {
-        "dev": "bash -c \"mkdir -p gen && fluent-typesafe --format=elm ./public/localization/en-US/main.ftl > ./gen/Localization.elm\"",
-        "start": "bash -c \"yarn dev && elm-app start\"",
-        "build": "bash -c \"yarn dev && elm-app build\"",
-        "test": "bash -c \"yarn dev && elm make gen/* && elm-format --validate gen/\""
+        "dev": "fluent-typesafe --format=elm --out=./gen ./public/localization/en-US",
+        "start": "yarn dev && elm-app start",
+        "build": "yarn dev && elm-app build",
+        "test": "yarn dev && elm make gen"
     },
     "dependencies": {
         "@fluent/web": "^0.2.1",

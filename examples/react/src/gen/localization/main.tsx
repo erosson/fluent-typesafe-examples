@@ -4,7 +4,6 @@ import __React from "react";
 import * as __L from "@fluent/react";
 
 // https://github.com/projectfluent/fluent.js/blob/master/fluent-react/src/localized.ts
-// TODO: typesafe `attrs` too
 type __props = Omit<__L.LocalizedProps, "id" | "vars" | "attrs">;
 
 export function HelloWorld(

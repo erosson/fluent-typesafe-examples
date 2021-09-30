@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import '@fluent/web'
-import * as L from './gen/localization'
+import { main as L } from './gen/localization'
 
 function App() {
   return (

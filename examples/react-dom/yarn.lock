@@ -5138,9 +5138,10 @@ flatten@^1.0.2:
 
 fluent-typesafe@erosson/fluent-typesafe#master:
   version "0.0.1"
-  resolved "https://codeload.github.com/erosson/fluent-typesafe/tar.gz/6cb976471faf1a74bc0d315c69e1de54a9fad9f0"
+  resolved "https://codeload.github.com/erosson/fluent-typesafe/tar.gz/d4a1b7689e520eb64ccd1bcd1a65266b9c323cbc"
   dependencies:
     "@fluent/syntax" "^0.18.0"
+    glob "^7.2.0"
     lodash "^4.17.21"
     minimist "^1.2.5"
     prettier "^2.4.1"
@@ -5364,6 +5365,18 @@ glob@^7.0.3, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
   version "7.1.6"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
   integrity sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.4"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
+glob@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.0.tgz#d15535af7732e02e948f4c41628bd910293f6023"
+  integrity sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"

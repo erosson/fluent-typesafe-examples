@@ -3,7 +3,7 @@ module Main exposing (..)
 import Browser
 import Html as H exposing (Html)
 import Html.Attributes as A
-import Localization as L
+import Localization.Main as L
 
 
 

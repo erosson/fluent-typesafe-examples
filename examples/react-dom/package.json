@@ -20,7 +20,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "dev": "bash -c \"mkdir -p src/gen && fluent-typesafe --format=react-dom ./public/localization/en-US/main.ftl > ./src/gen/localization.ts\"",
+    "dev": "fluent-typesafe --format=react-dom --out=./src/gen ./public/localization/en-US",
     "start": "yarn dev && react-scripts start",
     "build": "yarn dev && react-scripts build",
     "test": "yarn dev && react-scripts test",
