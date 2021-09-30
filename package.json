@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build": "bash ./build.sh",
+    "serve": "bash -c \"yarn build && yarn _serve\"",
+    "_serve": "serve build"
+  }
+}
