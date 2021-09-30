@@ -20,7 +20,7 @@ function App() {
       <div className="App">
         <h1>
           {/* eslint-disable-next-line */}
-          <L.HelloWorld vars={{ title: "THE TITLE" }} elems={{ a: <a href="?a=1" /> }}><span /></L.HelloWorld>
+          <L.HelloWorld attrs={{ title: true }} vars={{ title: "THE TITLE" }} elems={{ a: <a href="?a=1" /> }}><span /></L.HelloWorld>
           {/* <Localized id="hello-world" vars={{ title: "THE TITLE" }} elems={{ a: <a href="?a=1" /> }}><span /></Localized> */}
         </h1>
         <a href="?a=2">test</a>
